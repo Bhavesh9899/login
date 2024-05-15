@@ -2,7 +2,7 @@ from django.urls import path,include
 from . import views
 
 urlpatterns = [
-    path("form/",views.form,name="form"),
+    path("",views.form,name="form"),
     path("insert/",views.InsertData,name="insert"),
     path("show",views.ShowPage,name="show"),
     path("edit/<int:pk>",views.EditPage,name="edit"),
