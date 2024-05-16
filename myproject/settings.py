@@ -77,11 +77,12 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
- #       'NAME': 'emp',
- #       'USER': 'root',
- #       'PASSWORD': '',
-  #      'HOST': 'localhost',
-  #      'POST': '3306',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD':
+'XSSqYagkebOKdWmkzlqqpZZVhQxQSiju',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'POST': '14085',
     }}
 
 
